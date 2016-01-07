@@ -5,6 +5,8 @@
 var express = require('express'),
     app = express();
 
+var bane = "something";
+
 app.set('views', 'views');
 app.set('view engine', 'jade');
 
